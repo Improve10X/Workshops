@@ -1,4 +1,4 @@
-package com.improve10x.workshops.handson.srp.deliverystatus.cleancode;
+package com.improve10x.workshops.handson.unittest.deliverystatus.cleancode;
 
 class Customer implements User {
     private String name;
