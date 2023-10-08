@@ -1,5 +1,7 @@
 package com.improve10x.workshops.hackathon.cleancode;
 
+import com.improve10x.workshops.hackathon.generic.DriverNSRP;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,8 +23,13 @@ class BasicMatchingStrategy implements MatchingStrategy {
 
     // Simulated method to get drivers in a given city
     private List<Driver> getDriversInCity(String city) {
-        // Replace this with actual logic to fetch drivers in the city
-        return new ArrayList<>();
+        List<Driver> drivers = new ArrayList<>();
+        drivers.add(new Driver("Driver 1", 4.7, true));
+        drivers.add(new Driver("Driver 2", 4.5, true));
+        drivers.add(new Driver("Driver 3", 4.8, false));
+        drivers.add(new Driver("Driver 4", 4.2, true));
+        drivers.add(new Driver("Driver 5", 4.9, true));
+        return drivers;
     }
 
     // Simulated method to check if weather condition is suitable for the driver
