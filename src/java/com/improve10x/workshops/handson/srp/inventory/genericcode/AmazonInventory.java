@@ -1,4 +1,4 @@
-package com.improve10x.workshops.handson.unittest.inventory.genericcode.v2;
+package com.improve10x.workshops.handson.srp.inventory.genericcode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,9 @@ public class AmazonInventory {
         prices.add(price2);
         prices.add(price3);
         for(int i = 0; i < products.size(); i++) {
-            System.out.println("Product: " + products.get(i) + ", Price: $" + prices.get(i));
+            System.out.println("Product: " + products.get(i) +
+                    ", Price: $" + prices.get(i));
+
         }
     }
 }

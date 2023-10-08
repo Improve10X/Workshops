@@ -9,6 +9,7 @@ class Restaurant implements User {
 
     @Override
     public void update(Order order) {
-        System.out.println("Restaurant " + restaurantName + ": Order #" + order.getId() + " is now " + order.getStatus() + ".");
+        System.out.println("Restaurant " + restaurantName + ": Order #" +
+                order.getId() + " is now " + order.getStatus() + ".");
     }
 }

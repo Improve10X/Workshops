@@ -9,6 +9,7 @@ class Customer implements User {
 
     @Override
     public void update(Order order) {
-        System.out.println("Hello, " + name + "! Order #" + order.getId() + " is now " + order.getStatus() + ".");
+        System.out.println("Hello, " + name + "! Order #" +
+                order.getId() + " is now " + order.getStatus() + ".");
     }
 }

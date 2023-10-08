@@ -1,4 +1,4 @@
-package com.improve10x.workshops.handson.srp.inventory.cleancode.v1;
+package com.improve10x.workshops.handson.srp.inventory.cleancode;
 
 class Product {
     private String name;
