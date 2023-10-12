@@ -41,7 +41,7 @@ class PremiumMatchingStrategy implements MatchingStrategy {
 
     // Simulated method to check if weather condition is suitable for the driver
     private boolean isWeatherConditionSuitable(Driver driver, String weatherCondition) {
-        // Replace this with actual logic to check weather conditions
+        if (weatherCondition.)
         return true; // Example: Always suitable for premium matching
     }
 }
