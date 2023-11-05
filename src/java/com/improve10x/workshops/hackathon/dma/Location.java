@@ -1,4 +1,4 @@
-package com.improve10x.hackathons.dma;
+package com.improve10x.workshops.hackathon.dma;
 
 public class Location {
     public double lat;
