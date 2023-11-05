@@ -21,6 +21,16 @@ public class Main {
             System.out.println("-------------------------------------");
             System.out.println("Name : " + driver.getName() + " Rating : " + driver.getDriverRating() + " Availability : " + driver.isAvailable());
         }
+
+        weatherCondition = "raining"/* Weather condition for the matching request */;
+
+        driverMatcher = new DriverMatcher();
+        matchedDrivers = driverMatcher.matchDrivers(passenger, city, weatherCondition);
+        System.out.println("Drivers details : ");
+        for(Driver driver : matchedDrivers){
+            System.out.println("-------------------------------------");
+            System.out.println("Name : " + driver.getName() + " Rating : " + driver.getDriverRating() + " Availability : " + driver.isAvailable());
+        }
     }
 }
 
